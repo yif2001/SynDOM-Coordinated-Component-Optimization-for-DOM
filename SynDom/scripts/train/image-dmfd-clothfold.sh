@@ -1,0 +1,1 @@
+python /workspace/softgym/dmfd_416resnet_LSTM/experiments/run_sb3.py --env_name=clothfold --is_eval=True --checkpoint=data/sb3/SOTA_ClothFold_DMfD_06.11.13.42_11/pyt_save/model1000000.pt --eval_videos=False --eval_over_five_seeds=True  --env_name=ClothFold --env_kwargs_observation_mode=cam_rgb_key_point --env_kwargs_num_variations=1000 --agent=awac --seed=11 --num_eval_eps=5

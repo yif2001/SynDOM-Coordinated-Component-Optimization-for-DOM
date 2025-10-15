@@ -1,0 +1,1 @@
+python experiments/run_sb3.py --is_eval=True --checkpoint=data/sb3/SOTA_RopeFlatten_DMfD_optimized_05.06.08.08_11/pyt_save/model1000000.pt --eval_videos=True --eval_gif_size=512 --env_name=RopeFlatten --env_kwargs_observation_mode=cam_rgb_key_point --env_kwargs_num_variations=1000 --agent=awac --seed=11

@@ -1,0 +1,1 @@
+python experiments/run_sb3.py --env_name=ClothFoldRobot --is_eval=True --checkpoint=data/sb3/SOTA_ClothFoldRobot_DMfD_DiagonalPinned_04.28.05.12_11/pyt_save/model95000.pt --eval_videos=True --eval_gif_size=2048  --env_kwargs_observation_mode=cam_rgb_key_point --agent=awac --seed=11 --env_kwargs_num_variations=1 --env_kwargs_num_picker=1
